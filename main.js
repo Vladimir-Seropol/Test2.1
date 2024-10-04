@@ -43,6 +43,8 @@ class App {
 
         this.weather.renderWeather(app.querySelector('.weather-widget'));
         this.tasks.bindEvents();
+
+        document.cookie = "_gh_sess=value; SameSite=None; Secure";
     }
 }
 
